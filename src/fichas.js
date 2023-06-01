@@ -1,18 +1,7 @@
 import React from 'react';
 
-// export function FichasGrandes() {
-//   return (
-//     <section style={{backgroundColor:"white",width:"620px", height:"258px",borderRadius:"10px",marginTop:"20px"}}>
-//       <img src="/images/FG.png" alt="aimage" style={{marginLeft:"30px", marginTop:"13px"}}/>
-//       <span style={{marginTop:"-190px"}}>Sueter Básico Negro</span>
-//       <img src="/images/Star.png" alt="aimage" style={{marginBottom:"160px", marginLeft:"30px"}} />
-//       <img src="/images/Corazon.png" alt="aimage" style={{marginBottom:"12px", marginLeft:"-100px"}} />
-//       <span style={{marginBottom:"90px"}}>( 200+ Reviews )</span>
-//       <span style={{marginBottom:"90px"}}>Sueter básico ideal para combinar con todas tus prendas</span>
-//     </section>
-//         );
-// }
 
+//En este apartado se crea un componente que se encargara del apartado de las fichas 2 fichas grandes(para ello se crea un componente y se invoca para la primera ficha, ya para la segunda se vuelve a invocar la ficha y se cambian cosas usando css)
 export function FichasGrandes() {
     return (
       <section style={{backgroundColor:"white",width:"620px", height:"258px",borderRadius:"10px",marginTop:"20px"}}>
@@ -32,7 +21,7 @@ export function FichasGrandes() {
   }
 
 
-
+//En este apartado se crea otro componente para las fichas pequeñas(que son 5 en total), para ello se configura una, y se vuelve a invocar el componente otras cuatro veces mas, modificando las diferencias con css.
 export function Card()
 {
     return(<section style={{backgroundColor:"white", width:"210px", height:"254px", marginTop:"120px", marginLeft:"230px", borderRadius:"20px"}}>

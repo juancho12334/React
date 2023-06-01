@@ -1,3 +1,4 @@
+/* Se establecen los estilos que trendan cada uno de los apartados de la barra de navegacion */
 .navBar { 
     display: flex; 
     justify-content: space-evenly; 

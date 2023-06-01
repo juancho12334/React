@@ -1,3 +1,4 @@
+//aca se importan cada uno de los apartados importantes del proyecto, como los componentes.
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -8,7 +9,7 @@ import { Card } from './fichas.js';
 import NavBar from './header/NavBar';
 import Footer from './footer'
 
-
+//en este apartado se renderizan los componentes creados a lo largo del proyecto, como el footer, el header..etc
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <> 
