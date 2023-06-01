@@ -1,12 +1,13 @@
 /* Se establecen los estilos que trendan cada uno de los apartados del footer */
 .pie 
 { 
-    background-color: violet; 
+    background-color: pink;
     display: block; 
     max-height: 54px; 
     position: fixed; 
     bottom: 0; 
     width: 100%; 
+    box-shadow: 10px 10px 10px 10px;
 } 
  
 .parrafo 
